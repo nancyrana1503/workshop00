@@ -35,8 +35,35 @@ void converting(void)
 
 	printf("*** End of Converting Strings to int Demo ***\n\n");
 
+	// Version 2
+
+
+// Start of the demo for converting strings to double
+
+	printf("*** Start of Converting Strings to double Demo ***\n");
+	char doubleString[BUFFER_SIZE];
+	double doubleNumber;
+	do {
+		printf("Type the double numeric string (q - to quit):\n");		// Prompt the user to input a double numeric string or 'q' to quit
+
+		fgets(doubleString, BUFFER_SIZE, stdin);			// Read the input string from the user
+
+		doubleString[strlen(doubleString) - 1] = '\0';		// Remove the newline character at the end of the string
+
+		if ((strcmp(doubleString, "q") != 0))		// Check if the input string is not 'q'
+		{
+			doubleNumber = atof(doubleString);
+			printf("Converted number is %f\n", doubleNumber);
+		}
+	} while (strcmp(doubleString, "q") != 0);	// Continue the loop until the user types 'q'
+
+	printf("*** End of Converting Strings to double Demo ***\n");		// End of the demo
+
+
 }
 int main() {
 	converting();        // Call the converting function
 	return 0;
 }
+
+
