@@ -8,6 +8,8 @@
 #include <fstream>     
 #include <iomanip>     
 #include <sstream>     
+#include <iterator>
+#include <algorithm>
 #include "settings.h"  
 #include "dictionary.h"
 using namespace std;
