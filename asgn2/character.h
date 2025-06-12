@@ -1,5 +1,11 @@
 #pragma once
 
+// Name: Nancy Rana
+// Seneca email: nrana18@myseneca.ca
+// Seneca Student ID: 149951238
+// Date: 12 June 2025
+// character.h
+
 #ifndef SENECA_CHARACTER_H
 #define SENECA_CHARACTER_H
 #include <iostream>
