@@ -1,6 +1,10 @@
 #pragma once
 
-
+// Name: Nancy Rana
+// Seneca email: nrana18@myseneca.ca
+// Seneca Student ID: 149951238
+// Date: 12 June 2025
+// characterTpl.h
 
 #ifndef SENECA_CHARACTERTPL_H
 #define SENECA_CHARACTERTPL_H
@@ -8,11 +12,12 @@
 #include "health.h"
 #include "abilities.h"
 #include "weapons.h"
-
 namespace seneca {
+
     template <typename T>
     class CharacterTpl : public Character {
-        T m_health{};
+
+	T m_health{};
         int m_healthMax{};
 
     public:
@@ -58,9 +63,5 @@ namespace seneca {
             m_health = health;
         }
     };
-
-}
-
-
-#endif 
+} #endif 
 
