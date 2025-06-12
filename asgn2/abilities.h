@@ -1,5 +1,11 @@
 #pragma once
 
+// Name: Nancy Rana
+// Seneca email: nrana18@myseneca.ca
+// Seneca Student ID: 149951238
+// Date: 12 June 2025
+// abilities.h
+
 #ifndef SENECA_ABILITIES_H
 #define SENECA_ABILITIES_H
 #include <iostream>
