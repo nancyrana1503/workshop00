@@ -39,7 +39,8 @@ namespace seneca {
                 std::cout << "    " << getName() << " has been defeated!" << std::endl;
             }
             else {
-                std::cout << "    " << getName() << " took " << dmg << " damage, " << m_health << " health remaining." << std::endl;
+                std::cout << "    " << getName() << " took " << dmg << " damage, " << m_health << " health remaining." 
+			  << std::endl;
             }
         }
         //current health accessor
