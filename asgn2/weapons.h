@@ -1,5 +1,10 @@
 #pragma once
 
+// Name: Nancy Rana
+// Seneca email: nrana18@myseneca.ca
+// Seneca Student ID: 149951238
+// Date: 12 June 2025
+// weapons.h
 
 #ifndef SENECA_WEAPONS_H
 #define SENECA_WEAPONS_H
