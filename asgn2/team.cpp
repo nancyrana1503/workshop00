@@ -1,3 +1,11 @@
+
+// Name: Nancy Rana
+// Seneca email: nrana18@myseneca.ca
+// Seneca Student ID: 149951238
+// Date: 12 June 2025
+// team.cpp
+
+
 #include "team.h"
 #include <iostream>
 
