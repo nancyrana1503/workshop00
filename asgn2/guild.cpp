@@ -1,3 +1,9 @@
+// Name: Nancy Rana
+// Seneca email: nrana18@myseneca.ca
+// Seneca Student ID: 149951238
+// Date: 12 June 2025
+// guild.h
+
 #include "guild.h"
 namespace seneca {
 
