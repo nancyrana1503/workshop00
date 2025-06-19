@@ -1,4 +1,10 @@
 #pragma once
+// Name: Nancy Rana
+// Seneca email: nrana18@myseneca.ca
+// Seneca Student ID: 149951238
+// Date: 12 June 2025
+// team.h
+
 
 #ifndef SENECA_TEAM_H
 #define SENECA_TEAM_H
